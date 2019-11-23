@@ -1,8 +1,11 @@
 # Instructions to run the code
    ### Conda installation
    Linux:
+   
    ```curl -o ~/miniconda.sh -O https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh``` 
+   
    OSX:
+   
    ```curl -o ~/miniconda.sh -O https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh``` 
    ```chmod +x ~/miniconda.sh
    ./miniconda.sh
@@ -10,17 +13,23 @@
    ```
    
    Windows:
+   
    ```Install https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe``` 
 
    ### Clone GitHub repo
+   
    ```git clone https://github.com/appa-ayephyu/raid6_implementation.git
    cd raid6_implementation
    ```
+   
    ### Install python libraries
+   
    ```conda env create -f environment.yml
    source activate RAID6_Delivery
    ```
+   
    ### Run the notebooks
+   
    ```jupyter notebook```
    
    Run the test_raid6.ipynb file to test the implementation.
