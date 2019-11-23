@@ -1,0 +1,31 @@
+# Xavier Bresson
+
+name: RAID6_Delivery
+
+
+channels:
+  
+  - https://conda.anaconda.org/rdkit # Molecule
+  - dglteam # DGL
+  - https://conda.anaconda.org/conda-forge/
+
+dependencies:
+
+  # basic
+  - python=3.6
+  - numpy
+  - mkl
+  - ipython
+  - jupyter
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - networkx
+  - seaborn
+  - scikit-image
+  - tqdm
+  - ipdb
+
+  - pip:
+    - pyfinite
